@@ -3,7 +3,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Load the image
-B = np.array(Image.open('khayyam.jpg'))
+img = ''
+B = np.array(Image.open(img))
 
 # Normalize the image to float values between 0 and 1
 I = B.astype(float) / 255.0
